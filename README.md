@@ -67,3 +67,24 @@ Suppose, you modified a file after running git add, and do ```git status```, the
 
 So, to get the current state of the file to get committed, you must run  ``` git add ``` again.
 
+## 5. Git ignore 
+
+For files such as log files, or build system files that you don't want Git to add or show them as untracked, you can ask Git to ignore them using the ```.gitignore``` file. 
+
+``` 
+cat .gitignore
+*.[oa]
+*~
+node_modules/
+```
+
+Here, the first line archives all the files ending with ```.o``` or ```.a```.<br>
+The second line archives all the files ending with ```.~```.<br>
+The third line archives the entire directory called node_modules.<br>
+
+Note : Always set up a ```.gitignore``` file for a new project, before you get going so that you don't accidently commit any such files.
+
+## 6. Git diff
+
+The command is used to know what exactly were the changes, and not just the files where you made the changes.
+``` git diff``` shows you the exact lines added and removed- the patch, as they were.
