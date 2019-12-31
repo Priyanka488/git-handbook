@@ -92,4 +92,4 @@ The command is used to know what exactly were the changes, and not just the file
 
 Suppose you have two files, ```readme.txt``` and ```contr.txt```, and you've staged readme but not contr, you get the following response - 
 
-<img src="images/gitdiffexample.jpg"/>
+<img src="images/gitdiffexample.JPG"/>
