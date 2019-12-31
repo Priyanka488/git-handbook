@@ -87,4 +87,9 @@ Note : Always set up a ```.gitignore``` file for a new project, before you get g
 ## 6. Git diff
 
 The command is used to know what exactly were the changes, and not just the files where you made the changes.
-``` git diff``` shows you the exact lines added and removed- the patch, as they were. The command basically answers two questions - What changes are yet to be staged ? and What staged changes are yet to get committed ?
+``` git diff``` shows you the exact lines added and removed- the patch, as they were. The command basically answers two questions - What changes are yet to be staged ( use ``` git diff ```) ? and What staged changes are yet to get committed ?( use ```git diff --staged```) <br>
+
+
+Suppose you have two files, ```readme.txt``` and ```contr.txt```, and you've staged readme but not contr, you get the following response - 
+
+<img src="images/gitdiffexample.jpg"/>
