@@ -1,6 +1,36 @@
 # git-handbook
 Just so that I don't forget the git commands ! 
 
+## What is Version Control ?
+
+A version control system is just a software that helps you manage different versions of your project.
+When you use version control, you create safe points that save your project, giving you total freedom and security to change anything about your project, and not worry about losing any of your data.
+
+The main point of a VCS is to help us maintain a detailed history of the project, and to work onn different versions of it too.
+
+A Source Code Manager(SCM) is another name for a version control system.
+
+## Types of Version Control System Models
+
+1. Centralised : A central computer hosts all the projects, and all the interactions should happen through it.
+2. Distributed : There's no such central repository, each developer has a complete copy of the project on their system.
+
+## Most Popular Version Control Systems 
+
+1. git
+2. Subversion
+3. Mercurial
+
+## Git vs Github :
+
+Git is a distributed version control system. Git and Github are different from each other. Git is a version control tool while Github is a service that hosts git projects.
+
+## git- Key Terms
+
+### 1. Version control system (VCS)- 
+
+A VCS allows you to revert a file/project to a previous state, to see who made the changes and when or who introduced an issue etc.
+
 ## 1. Git init
 The command is used to initialise a local repo as git repo.
 ``` git init```
